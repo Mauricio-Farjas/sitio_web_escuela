@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de fotografía de retrato y paisaje desde Monterrey.">
+  <title>Mau Fotografía</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <a href="homepage.html">Mau Fotografía</a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><button id="tema" type="button">Modo oscuro</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="inicio">
+      <h1>Fotografía que cuenta historias con luz natural</h1>
+      <p>Retrato y paisaje desde Monterrey. Busco imágenes que se sientan reales, sin poses forzadas.</p>
+      <a href="#portafolio">Ver portafolio</a>
+      <figure>
+        <img src="https://picsum.photos/id/1015/1200/600" alt="Paisaje de río entre montañas">
+        <figcaption>Sierra Madre, amanecer</figcaption>
+      </figure>
+    </section>
+
+    <section id="portafolio">
+      <h2>Portafolio</h2>
+      <ul>
+        <li>
+          <figure>
+            <button type="button" title="Ampliar foto">
+              <img src="https://picsum.photos/id/1011/1200/800" alt="Persona remando en un lago">
+            </button>
+            <figcaption>Retrato en exteriores</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <button type="button" title="Ampliar foto">
+              <img src="https://picsum.photos/id/1018/1200/800" alt="Montañas con neblina">
+            </button>
+            <figcaption>Paisaje de montaña</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <button type="button" title="Ampliar foto">
+              <img src="https://picsum.photos/id/1025/1200/800" alt="Perro descansando">
+            </button>
+            <figcaption>Retrato de mascota</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <button type="button" title="Ampliar foto">
+              <img src="https://picsum.photos/id/1039/1200/800" alt="Cascada en el bosque">
+            </button>
+            <figcaption>Naturaleza</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <button type="button" title="Ampliar foto">
+              <img src="https://picsum.photos/id/1043/1200/800" alt="Paisaje urbano al atardecer">
+            </button>
+            <figcaption>Ciudad al atardecer</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <button type="button" title="Ampliar foto">
+              <img src="https://picsum.photos/id/1067/1200/800" alt="Detalle de arquitectura">
+            </button>
+            <figcaption>Arquitectura</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Empecé fotografiando a mis amigos con una cámara prestada. Hoy trabajo sobre todo retrato y paisaje, casi siempre con luz natural.</p>
+      <p>Estoy disponible para sesiones en Monterrey y alrededores, y también para viajar por proyectos.</p>
+    </section>
+
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <ul>
+        <li>
+          <article>
+            <h3>Sesión de retrato</h3>
+            <p>Una hora de sesión en exteriores o en estudio, con 20 fotos editadas.</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3>Eventos</h3>
+            <p>Cobertura de cumpleaños, graduaciones y reuniones por horas.</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3>Paisaje y producto</h3>
+            <p>Fotografía para proyectos, negocios y publicaciones.</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>¿Tienes un proyecto en mente? Escríbeme y platicamos.</p>
+      <p><a href="mailto:hola@maufotografia.com">hola@maufotografia.com</a></p>
+    </section>
+
+  </main>
+
+  <dialog id="visor">
+    <figure>
+      <img id="visor-img" src="" alt="">
+      <figcaption id="visor-texto"></figcaption>
+    </figure>
+    <button id="cerrar" type="button">Cerrar</button>
+  </dialog>
+
+  <footer>
+    <p>&copy; 2026 Mau Fotografía</p>
+  </footer>
+
+</body>
+</html>
